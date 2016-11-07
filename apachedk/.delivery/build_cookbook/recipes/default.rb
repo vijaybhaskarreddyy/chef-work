@@ -1,6 +1,6 @@
 #
-# Cookbook Name:: apache
+# Cookbook Name:: build_cookbook
 # Recipe:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
-include_recipe 'passenger_apache2', '~> 3.0.0'
+include_recipe 'delivery-truck::default'

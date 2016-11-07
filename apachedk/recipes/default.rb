@@ -3,4 +3,9 @@
 # Recipe:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
-include_recipe 'passenger_apache2', '~> 3.0.0'
+file '/tmp/something' do
+  owner 'root'
+  group 'root'
+  mode 00755
+  action :create
+end
