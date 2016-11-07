@@ -1,9 +1,9 @@
 #
-# Cookbook Name:: apache
+# Cookbook Name:: filecreation
 # Recipe:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
-file '/tmp/something' do
+file '/avbr.txt' do
   owner 'root'
   group 'root'
   mode 00755
